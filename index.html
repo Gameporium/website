@@ -1,37 +1,59 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <!-- Primary Meta Tags -->
-  <meta charset="UTF-8">
-  <title>Gameporium</title>
-  <meta name="title" content="Gameporium" />
-  <meta name="description" content="The Gameporium Website!" />
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameporium</title>
+    <meta name="title" content="Gameporium" />
+    <meta name="description" content="The Gameporium Website!" />
 
-  <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="512x512" href="res/site/favicon-512x512.png">
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="512x512" href="res/site/favicon-512x512.png">
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Keep Animate.css for the logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-    <div class="logo">
-        <img src="gameporium.png" class="animate__animated animate__fadeInDown" style="height: 25vh; width: 25vh; border-radius: 22%; margin-bottom: 1.5%;">
-    </div>
+    <div class="container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="gameporium.png" class="animate__animated animate__fadeInDown" 
+                 style="height: 25vh; width: 25vh; border-radius: 22%; margin-bottom: 30px;">
+        </div>
 
-    <div class="animate__animated animate__fadeInUp table">
-    <table border="1" cellpadding="8" cellspacing="0">
-        <thead>
-            <tr>
-                <th><a href="https://www.eldorado.gg/users/Gameporium?tab=Offers&category=CustomItem">Eldorado</a></th>
-                <th><a href="https://discord.gg/4Gc22ptxRB">Discord</a></th>
-                <th><a href="https://www.roblox.com/communities/514461297/Gameporium-xyz#!/about">Roblox</a></th>
-                <th><a href="https://payments.Gameporium.xyz">Payments</a></th>
-            </tr>
-        </thead>
-    </table>
+        <!-- Links Section (Styled like the Crypto rows) -->
+        <div class="links-wrapper">
+            
+            <!-- Eldorado -->
+            <a href="https://www.eldorado.gg/users/Gameporium?tab=Offers&category=CustomItem" class="icon-row">
+                <div class="text">Eldorado</div>
+                <div class="arrow-icon">→</div>
+            </a>
+
+            <!-- Discord -->
+            <a href="https://discord.gg/4Gc22ptxRB" class="icon-row">
+                <div class="text">Discord</div>
+                <div class="arrow-icon">→</div>
+            </a>
+
+            <!-- Roblox -->
+            <a href="https://www.roblox.com/communities/514461297/Gameporium-xyz#!/about" class="icon-row">
+                <div class="text">Roblox</div>
+                <div class="arrow-icon">→</div>
+            </a>
+
+            <!-- Payments -->
+            <a href="https://payments.Gameporium.xyz" class="icon-row">
+                <div class="text">Payments</div>
+                <div class="arrow-icon">→</div>
+            </a>
+
+        </div>
     </div>
 </body>
 
